@@ -1,0 +1,16 @@
+; MQTT setup
+
+[mqtt.miflora]
+  broker       = mqtt://192.168.1.100:1883
+  topic prefix = miflora
+
+[mqtt.mysensors]
+  broker       = mqtt://192.168.1.200:1883
+  topic prefix = mygateway1-out
+
+; Map MiFlora sensor names to MySensor node id's.
+; A node id should be numerical, and unique.
+
+[sensors]
+  sensornaam = 100
+  andere sensornaam = 101

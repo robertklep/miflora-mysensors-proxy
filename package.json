@@ -1,0 +1,15 @@
+{
+  "name": "miflora-mysensors-proxy",
+  "version": "1.0.0",
+  "description": "MiFlora — MySensors MQTT proxy",
+  "bin": {
+    "miflora-mysensors-proxy": "./bin/miflora-mysensors-proxy"
+  },
+  "dependencies": {
+    "debug": "^3.1.0",
+    "mqtt": "^2.15.0",
+    "rc": "^1.2.2"
+  },
+  "author": "Robert Klep <robert@klep.name>",
+  "license": "MIT"
+}
